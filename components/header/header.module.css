@@ -6,6 +6,7 @@
   height: 80px;
   background-color: #FFFFFF;
   border-bottom: solid 2px #AFAFAF80;
+  position: fixed;
 }
 
 .logo {

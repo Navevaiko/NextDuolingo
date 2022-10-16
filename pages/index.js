@@ -1,7 +1,11 @@
-import CustomHeader from '../components/header'
+import CustomHeader from '../components/header/header'
+import Menu from '../components/menu/menu';
 
 export default function Home() {
   return (
-    <CustomHeader />
+    <>
+      <CustomHeader />
+      <Menu />
+    </>
   )
 }
