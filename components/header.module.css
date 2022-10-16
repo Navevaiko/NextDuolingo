@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  background-color: #FFFFFF;
+  border-bottom: solid 2px #AFAFAF80;
+}
+
+.logo {
+  width: 130px;
+  height: 130px;
+  margin-left: 30px
+}
+
+.profileContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 420px;
+  height: 100%;
+  margin-right: 15px;
+}
+
+.languagesContainer {
+  width: 50px;
+  height: 50px;
+}
+
+.languagesImage {
+  width: 90%;
+  height: 78%;
+  margin-top: 5px;
+  background-size: cover;
+  background-image: url('/images/languages.svg');
+  background-position: center -70px;
+}
+
+.progress {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.progressInfo {
+  font-weight: 700;
+  font-size: 17px;
+  margin-left: 5px;
+}
+
+.progressInfoYellow {
+  color: #FFD333;
+}
+
+.progressInfoOrange {
+  color: #FFA21D;
+}
+
+.progressInfoRed {
+  color: #FD6D6D;
+}
+
+.profilePicture {
+  width: 50px;
+  height: 50px;
+  border-radius: 80px;
+  cursor: pointer;
+  background-image: url('/images/profile_picture.jpg');
+  background-size: cover;
+}
