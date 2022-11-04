@@ -23,16 +23,6 @@ export default function CustomHeader() {
 
         <div className={styles.progress}>
           <Image
-            src='/images/crown.svg'
-            height='35'
-            width='35'
-            alt='Crown'
-          />
-          <h3 className={`${styles.progressInfo} ${styles.progressInfoYellow}`}>291</h3>
-        </div>
-
-        <div className={styles.progress}>
-          <Image
             src='/images/fire.svg'
             height='35'
             width='35'
