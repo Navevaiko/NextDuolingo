@@ -8,8 +8,8 @@ export default function CustomHeader() {
         <Image 
           src='/images/logo.svg'
           alt='Duolingo logo'
-          height='130'
-          width='130'
+          height='50'
+          width='110'
         />
       </div>
 
@@ -24,8 +24,8 @@ export default function CustomHeader() {
         <div className={styles.progress}>
           <Image
             src='/images/fire.svg'
-            height='35'
-            width='35'
+            height='25'
+            width='25'
             alt='Fire'
           />
           <h3 className={`${styles.progressInfo} ${styles.progressInfoOrange}`}>89</h3>
@@ -34,8 +34,8 @@ export default function CustomHeader() {
         <div className={styles.progress}>
           <Image
             src='/images/emerald.svg'
-            height='35'
-            width='35'
+            height='25'
+            width='25'
             alt='Emerald'
           />
           <h3 className={`${styles.progressInfo} ${styles.progressInfoRed}`}>746</h3>
